@@ -37,7 +37,7 @@ namespace TurfBookingSystem.Controllers
             return Ok(currency);
         }
 
-        // GET: api/Currency/GetByName/{Mypropertyname}
+        // GET: api/Currency/GetByName/{Mypropertyname} fectch datarecord using name keyword
         [HttpGet("GetByName/{Mypropertyname}")]
         public IActionResult GetCurrencyByName(string Mypropertyname)
         {
