@@ -1,0 +1,6 @@
+@TurfBookingSystem_HostAddress = http://localhost:5208
+
+GET {{TurfBookingSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
